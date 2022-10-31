@@ -1,0 +1,42 @@
+body {
+    color: darkblue ;
+    background-color: limegreen;
+}
+
+div {
+    margin: 5px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+form {
+    max-width: 800px;
+    border: 7px solid;
+    padding: 10px;
+    background-color: darkorange;
+}
+
+input, button {
+    outline: none;
+}
+
+fieldset {
+    border: solid 3px;
+    background-color: darkorange;
+}   
+
+input {
+    border: 1px solid;
+}
+
+label {
+    display: block;
+}

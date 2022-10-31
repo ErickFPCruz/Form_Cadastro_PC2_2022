@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estiloForm.css">
+<title>Atividade Form Cadastro</title>
+</head>
+
+<body>
+
+<div class="form-cadastro">
+
+<form>
+<h1>Cadastro</h1>
+
+<label for="nome">Nome Completo</label>
+<input type="text" name="Nome" id="Nome">
+
+<label for="email">E-mail</label>
+<input type="email" name="Email" id="Email">
+
+<label for="telefone">Telefone</label>
+<input type="tel" name="Telefone" id="Telefone">
+
+<label for="logradouro">Endereço</label>
+<input type="text" name="Endereço" id="Endereço">
+
+<label for="numero">Número</label>
+<input type="number" name="Numero" id="Numero">
+
+<label for="bairro">Bairro</label>
+<input type="text" name="Bairro" id="Bairro">
+
+<label for="cidade">Cidade</label>
+<input type="text" name="Cidade" id="Cidade">
+
+<label for="estado">Estado</label>
+<input type="text" name="Estado" id="Estado">
+
+<label for="cep">CEP</label>
+<input type="text" name="CEP" id="CEP">
+
+<label for="estado-civil">Estado Civil</label>
+<input name="estado-civil" id="estado-civil">
+
+</div>
+
+<fieldset>
+<legend>Preferência de contato</legend>
+<input type="radio" name="contato" id="por-email"
+value="por-email">
+<label for="por-email">E-mail</label>
+<input type="radio" name="contato" id="por-telefone"
+value="por-telefone">
+<label for="por-telefone">Telefone</label>
+</fieldset>
+
+<div class="termos">
+<input type="checkbox" name="concorda-termo"
+id="concorda-termo">
+<label for="concorda-termo">Li e concordo</label>
+</div>
+<div class="botoes">
+<button class="enviar">Enviar</button>
+<button class="reiniciar">Reiniciar</button>
+
+</div>
+
+</form>
+
+</body>
+
+</html>
